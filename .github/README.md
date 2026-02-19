@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-iotanalytics`](https://www.npmjs.com/package/@aws-sdk/client-iotanalytics/v/3.662.0).
+[`@aws-sdk/client-iotanalytics`](https://www.npmjs.com/package/@aws-sdk/client-iotanalytics/v/3.664.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotanalytics@3.662.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotanalytics@3.664.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ozRxgSxSOAS1a5GwyzZx2Lt3M2RiuSYQh3V6hjJwRrhez/e69KXV9CUu7XrdY3/t
+sha384-QL35Jx+LMLvFw1gCFW/H1lDYg3PeKT4Yf8S1SX2uXShNEQ/vf+HQfa9Zoo0UEFmt
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-iotanalytics": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotanalytics@3.662.0/index.min.mjs"
+            "@aws-sdk/client-iotanalytics": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotanalytics@3.664.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotanalytics@3.662.0/index.min.mjs": "sha384-ozRxgSxSOAS1a5GwyzZx2Lt3M2RiuSYQh3V6hjJwRrhez/e69KXV9CUu7XrdY3/t"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotanalytics@3.664.0/index.min.mjs": "sha384-QL35Jx+LMLvFw1gCFW/H1lDYg3PeKT4Yf8S1SX2uXShNEQ/vf+HQfa9Zoo0UEFmt"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-iotanalytics": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotanalytics@3.662.0/index.min.mjs"
+                        "@aws-sdk/client-iotanalytics": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotanalytics@3.664.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotanalytics@3.662.0/index.min.mjs": "sha384-ozRxgSxSOAS1a5GwyzZx2Lt3M2RiuSYQh3V6hjJwRrhez/e69KXV9CUu7XrdY3/t"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotanalytics@3.664.0/index.min.mjs": "sha384-QL35Jx+LMLvFw1gCFW/H1lDYg3PeKT4Yf8S1SX2uXShNEQ/vf+HQfa9Zoo0UEFmt"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.662.0`)
+* Always pin to a specific version (`@3.664.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-iotanalytics/blob/refs/tags/3.662.0/LICENSE
+https://github.com/cloud-sdk-builds/client-iotanalytics/blob/refs/tags/3.664.0/LICENSE
 ```
 
 ---
